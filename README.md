@@ -32,7 +32,7 @@ iface eth0 inet static
 ```sh
 root@host:# vim /etc/resolv.conf
 ```
-```conf
+```vim
 nameserver 8.8.8.8
 ```
 > Step #4 - Set IP Forwarding dan Masquerading (untuk menggunakan sebagai router), 
